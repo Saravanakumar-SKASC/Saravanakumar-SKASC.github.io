@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://saravanakumar-skasc.github.io/sitemap.xml

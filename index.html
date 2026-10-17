@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Saravanakumar Nagalingam · AI Engineer</title>
+  <meta name="description" content="AI Engineer in Dublin building production LLM applications: RAG pipelines, agents, evaluation and cloud deployment. 3 years at TCS, MSc in Artificial Intelligence. Stamp 1G, no sponsorship required.">
+  <meta name="author" content="Saravanakumar Nagalingam">
+  <meta name="theme-color" content="#0f766e">
+
+  <!-- Update this URL if you deploy somewhere else -->
+  <link rel="canonical" href="https://saravanakumar-skasc.github.io/">
+
+  <!-- Link previews (LinkedIn, Slack, WhatsApp, email) -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Saravanakumar Nagalingam · AI Engineer">
+  <meta property="og:description" content="Production LLM applications: RAG, agents, evaluation and cloud deployment. Dublin · Stamp 1G, no sponsorship required.">
+  <meta property="og:url" content="https://saravanakumar-skasc.github.io/">
+  <meta property="og:image" content="https://saravanakumar-skasc.github.io/assets/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- Applies the saved theme before first paint, so there is no flash -->
+  <script>
+    try {
+      var t = localStorage.getItem('theme');
+      if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+    } catch (e) {}
+  </script>
+
+  <!-- Structured data: helps Google show your name, title and profiles correctly -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Saravanakumar Nagalingam",
+    "jobTitle": "AI Engineer",
+    "url": "https://saravanakumar-skasc.github.io/",
+    "email": "mailto:saravanakumar3899@gmail.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Dublin", "addressCountry": "IE" },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "National College of Ireland" },
+      { "@type": "CollegeOrUniversity", "name": "Sri Krishna Arts and Science College" }
+    ],
+    "knowsAbout": ["Large Language Models", "Retrieval-Augmented Generation", "AI Agents", "LangChain", "LangGraph", "MLOps", "AWS", "Machine Learning"],
+    "sameAs": [
+      "https://www.linkedin.com/in/saravanakumarn3899",
+      "https://github.com/Saravanakumar-SKASC",
+      "https://www.kaggle.com/saravanakumar0308"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <!-- Icon sprite: each icon is drawn once and reused with <use href="#i-name"> -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></symbol>
+    <symbol id="i-kaggle" viewBox="0 0 24 24"><path fill="currentColor" d="M18.83 23.86c-.02.09-.12.14-.28.14h-3.14a.6.6 0 0 1-.5-.25l-5.17-6.59-1.45 1.37v5.12c0 .23-.12.35-.35.35H5.5c-.23 0-.35-.12-.35-.35V.35c0-.23.12-.35.35-.35h2.43c.24 0 .35.12.35.35V14.7l6.2-6.28a.68.68 0 0 1 .5-.24h3.24c.14 0 .24.06.28.18.05.15.04.25-.03.31l-6.56 6.35 6.84 8.5c.1.11.11.21.07.36"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></g></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></g></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></g></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></g></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></g></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></g></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></g></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></g></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <div class="layout">
+    <!-- ============ LEFT: profile (sticky on desktop) ============ -->
+    <header class="profile">
+      <div>
+        <p class="status"><span class="status-dot" aria-hidden="true"></span>Open to AI Engineer roles</p>
+        <h1 class="name">Saravanakumar Nagalingam</h1>
+        <p class="role">AI Engineer · RAG, Agents &amp; LLMOps</p>
+        <p class="pitch">I build LLM applications that hold up in production: retrieval that cites its sources, agents that know when to refuse, and the pipelines that ship them safely.</p>
+
+        <ul class="facts">
+          <li><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>Dublin, Ireland</li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg>Stamp 1G · no sponsorship required</li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>Can start within 2 weeks</li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-cap"/></svg>MSc Artificial Intelligence, 2026</li>
+        </ul>
+
+        <div class="cta">
+          <a class="btn btn-primary" href="assets/Saravanakumar_Nagalingam_CV.pdf" download>
+            <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>Download CV
+          </a>
+          <a class="btn btn-secondary" href="mailto:saravanakumar3899@gmail.com">
+            <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>Email me
+          </a>
+        </div>
+
+        <nav class="nav" aria-label="Sections">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="profile-foot">
+        <ul class="socials">
+          <li><a href="https://github.com/Saravanakumar-SKASC" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg></a></li>
+          <li><a href="https://www.linkedin.com/in/saravanakumarn3899" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg></a></li>
+          <li><a href="https://www.kaggle.com/saravanakumar0308" target="_blank" rel="noopener" aria-label="Kaggle" title="Kaggle"><svg class="icon" aria-hidden="true"><use href="#i-kaggle"/></svg></a></li>
+          <li><a href="mailto:saravanakumar3899@gmail.com" aria-label="Email" title="saravanakumar3899@gmail.com"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg></a></li>
+        </ul>
+        <button class="theme-toggle" type="button" aria-label="Switch colour theme" title="Switch colour theme">
+          <svg class="icon icon-sun" aria-hidden="true"><use href="#i-sun"/></svg>
+          <svg class="icon icon-moon" aria-hidden="true"><use href="#i-moon"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- ============ RIGHT: content ============ -->
+    <main id="content">
+
+      <!-- About -->
+      <section id="about" class="section" aria-labelledby="about-h">
+        <h2 id="about-h" class="section-title">About</h2>
+        <p>I spent three years at <strong>Tata Consultancy Services</strong> as an AI Cloud engineer, building LLM-powered assistants and RAG pipelines for an international airline client, and running the CI/CD that put them into production on AWS.</p>
+        <p>I then completed an <strong>MSc in Artificial Intelligence</strong> at the National College of Ireland, where my thesis tested phishing detectors not just for accuracy but for how easily an attacker can fool them. That is how I approach every AI system: measure it, explain it, and find where it breaks before users do.</p>
+        <p>I'm looking for <strong>AI Engineer, LLM Engineer or ML Platform</strong> roles in Ireland where I can ship agentic and retrieval systems that teams can trust.</p>
+
+        <dl class="stats">
+          <div><dt>Years in production AI</dt><dd>3</dd></div>
+          <div><dt>Daily queries served</dt><dd>10k+</dd></div>
+          <div><dt>Lower query latency</dt><dd>30%</dd></div>
+          <div><dt>Thesis model accuracy</dt><dd>97.2%</dd></div>
+        </dl>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience" class="section" aria-labelledby="experience-h">
+        <h2 id="experience-h" class="section-title">Experience</h2>
+
+        <article class="entry">
+          <p class="entry-date">Jul 2022 – Apr 2025</p>
+          <div class="entry-body">
+            <h3 class="entry-title">Assistant Systems Engineer, AI Cloud</h3>
+            <p class="entry-org">Tata Consultancy Services · client: major international airline</p>
+            <ul class="bullets">
+              <li>Built LLM-powered enterprise assistants with LangChain and OpenAI, making document search and knowledge retrieval faster across enterprise systems.</li>
+              <li>Designed FAISS-based RAG pipelines on AWS S3, <strong>cutting query latency by 30%</strong> through retrieval tuning.</li>
+              <li>Built an evaluation harness with RAGAS and PromptLayer to define test scenarios and measure answer quality before each release.</li>
+              <li>Automated model deployment with Jenkins and GitHub Actions for zero-downtime rollouts, scaling containerised workloads on AWS EC2 to <strong>10,000+ daily queries</strong>.</li>
+            </ul>
+            <ul class="tags" aria-label="Technologies">
+              <li>Python</li><li>LangChain</li><li>OpenAI</li><li>FAISS</li><li>RAGAS</li><li>AWS</li><li>Docker</li><li>Jenkins</li><li>GitHub Actions</li>
+            </ul>
+          </div>
+        </article>
+
+        <a class="text-link" href="assets/Saravanakumar_Nagalingam_CV.pdf" download>
+          View full CV <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
+        </a>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section" aria-labelledby="projects-h">
+        <h2 id="projects-h" class="section-title">Selected projects</h2>
+
+        <!-- Featured 1 -->
+        <article class="project">
+          <div class="project-head">
+            <div>
+              <p class="project-kicker">LLM · RAG · Production hardening</p>
+              <h3 class="project-title">Document Portal</h3>
+            </div>
+            <a class="project-link" href="https://github.com/Saravanakumar-SKASC/Document-Portal" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-github"/></svg>Code
+            </a>
+          </div>
+          <p class="project-summary">Document intelligence for regulated settings such as airline manuals. Upload PDFs to get a structured briefing, ask questions across many files with verified citations, or diff two revisions page by page.</p>
+          <ol class="flow" aria-label="How it works">
+            <li>PDF upload</li><li>PII redaction</li><li>Hybrid search</li><li>Relevance guardrail</li><li>Cited answer</li>
+          </ol>
+          <ul class="bullets">
+            <li>Hybrid BM25 + vector retrieval fused with Reciprocal Rank Fusion, so exact part numbers and codes are found, not just similar text.</li>
+            <li>Refuses instead of guessing when nothing relevant is retrieved, and checks every citation against the source chunks.</li>
+            <li>API-key auth with roles, PII redaction before embedding, and automatic fallback between LLM providers.</li>
+          </ul>
+          <dl class="metrics">
+            <div><dt>Retrieval strategies benchmarked</dt><dd>4</dd></div>
+            <div><dt>Offline tests</dt><dd>59</dd></div>
+            <div><dt>CI gate on retrieval quality</dt><dd>Hit rate · MRR</dd></div>
+          </dl>
+          <ul class="tags" aria-label="Technologies">
+            <li>LangChain</li><li>FAISS</li><li>FastAPI</li><li>Streamlit</li><li>Gemini</li><li>Groq</li><li>Docker</li><li>GitHub Actions</li><li>pytest</li>
+          </ul>
+        </article>
+
+        <!-- Featured 2 -->
+        <article class="project">
+          <div class="project-head">
+            <div>
+              <p class="project-kicker">MSc thesis · ML · Explainability · Security</p>
+              <h3 class="project-title">Phishing Website Detection</h3>
+            </div>
+            <a class="project-link" href="https://github.com/Saravanakumar-SKASC/Phishing_Website_Detection" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-github"/></svg>Code
+            </a>
+          </div>
+          <p class="project-summary">Treats accuracy, interpretability and adversarial robustness as joint goals. Six classifiers compared under one reproducible, config-driven protocol on 11,055 websites and 30 features.</p>
+          <ol class="flow" aria-label="How it works">
+            <li>Feature pipeline</li><li>6 classifiers</li><li>Stacking ensemble</li><li>SHAP &amp; LIME</li><li>Adversarial attack</li>
+          </ol>
+          <ul class="bullets">
+            <li>Leakage-free stacking ensemble (out-of-fold Logistic Regression meta-learner) was the strongest model.</li>
+            <li>Explained every prediction globally and locally with SHAP and LIME; tracked all runs in MLflow.</li>
+            <li>Key finding: flipping a single feature (SSL state) cut XGBoost accuracy from 96.83% to 72.32%, showing headline accuracy hides fragility.</li>
+          </ul>
+          <dl class="metrics">
+            <div><dt>Test accuracy</dt><dd>97.20%</dd></div>
+            <div><dt>Phishing-class F1</dt><dd>97.49%</dd></div>
+            <div><dt>Accuracy after 1-feature attack</dt><dd>72.32%</dd></div>
+          </dl>
+          <ul class="tags" aria-label="Technologies">
+            <li>scikit-learn</li><li>XGBoost</li><li>LightGBM</li><li>TabNet</li><li>SHAP</li><li>LIME</li><li>MLflow</li>
+          </ul>
+        </article>
+
+        <!-- Featured 3 -->
+        <article class="project">
+          <div class="project-head">
+            <div>
+              <p class="project-kicker">Full-stack · Speech · 3D</p>
+              <h3 class="project-title">Avatar Reader</h3>
+            </div>
+            <a class="project-link" href="https://github.com/Saravanakumar-SKASC/Avatar-Reader" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-github"/></svg>Code
+            </a>
+          </div>
+          <p class="project-summary">Turns any PDF into a page-flipping book read aloud by a lip-synced, blinking 3D avatar, with word-by-word highlighting and facial expressions that follow the emotion of the text.</p>
+          <ol class="flow" aria-label="How it works">
+            <li>PDF text</li><li>Text-to-speech</li><li>Whisper timestamps</li><li>Lip-sync &amp; emotion</li><li>3D avatar</li>
+          </ol>
+          <ul class="bullets">
+            <li>Streams the first sentence as soon as it's synthesised and prefetches the next page, so reading starts almost instantly.</li>
+            <li>Caches every audio clip in IndexedDB, so repeat plays never spend TTS quota again; falls back to self-hosted Piper TTS.</li>
+            <li>Runs Whisper and a GoEmotions classifier locally with Transformers.js, so word timings and facial expressions cost nothing per page.</li>
+          </ul>
+          <dl class="metrics">
+            <div><dt>Avatars, each with own voice</dt><dd>7</dd></div>
+            <div><dt>TTS engines with fallback</dt><dd>2</dd></div>
+            <div><dt>Read-along highlight</dt><dd>Per word</dd></div>
+          </dl>
+          <ul class="tags" aria-label="Technologies">
+            <li>Next.js</li><li>TypeScript</li><li>Three.js</li><li>Whisper</li><li>Hugging Face</li><li>Supabase</li><li>Vitest</li>
+          </ul>
+        </article>
+
+        <!-- More projects -->
+        <h3 class="subhead">More projects</h3>
+        <ul class="mini-grid">
+          <li class="mini">
+            <a class="mini-link" href="https://github.com/Saravanakumar-SKASC/Agentic-Chatbot" target="_blank" rel="noopener">
+              <span class="mini-title">Agentic AI News Chatbot <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+              <span class="mini-desc">LangGraph agent that searches the web with Tavily and writes daily, weekly and monthly AI news summaries.</span>
+              <span class="mini-tags">LangGraph · Groq · Tavily · Streamlit</span>
+            </a>
+          </li>
+          <li class="mini">
+            <a class="mini-link" href="https://github.com/Saravanakumar-SKASC/Anime-Recommender-System-LLMOPS" target="_blank" rel="noopener">
+              <span class="mini-title">LLM Anime Recommender <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+              <span class="mini-desc">RAG recommender over a ChromaDB index, deployed on Kubernetes on a Google Cloud VM with Grafana Cloud monitoring.</span>
+              <span class="mini-tags">Groq · ChromaDB · Docker · Kubernetes · GCP</span>
+            </a>
+          </li>
+          <li class="mini">
+            <a class="mini-link" href="https://github.com/Saravanakumar-SKASC/MLOPS-PROJECT-1" target="_blank" rel="noopener">
+              <span class="mini-title">Hotel Cancellation Prediction (MLOps) <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+              <span class="mini-desc">End-to-end pipeline from GCS ingestion to training, with Jenkins building and deploying the model to Google Cloud Run.</span>
+              <span class="mini-tags">Jenkins · Docker · Cloud Run · MLflow</span>
+            </a>
+          </li>
+          <li class="mini">
+            <a class="mini-link" href="https://github.com/Saravanakumar-SKASC/ML_EV_CA2" target="_blank" rel="noopener">
+              <span class="mini-title">EV Charging Demand Forecasting <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+              <span class="mini-desc">Compared statistical, ML and deep-learning forecasters on Caltech ACN charging data, from SARIMAX to an LSTM.</span>
+              <span class="mini-tags">SARIMAX · XGBoost · LightGBM · LSTM</span>
+            </a>
+          </li>
+        </ul>
+
+        <a class="text-link" href="https://github.com/Saravanakumar-SKASC?tab=repositories" target="_blank" rel="noopener">
+          All repositories on GitHub <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
+        </a>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section" aria-labelledby="skills-h">
+        <h2 id="skills-h" class="section-title">Skills</h2>
+        <dl class="skills">
+          <div>
+            <dt>LLMs &amp; agents</dt>
+            <dd><ul class="tags"><li>LangChain</li><li>LangGraph</li><li>LlamaIndex</li><li>OpenAI</li><li>Claude</li><li>Gemini</li><li>Groq</li><li>Prompt engineering</li><li>Tool calling</li></ul></dd>
+          </div>
+          <div>
+            <dt>Retrieval &amp; evaluation</dt>
+            <dd><ul class="tags"><li>RAG</li><li>Hybrid search (BM25)</li><li>FAISS</li><li>ChromaDB</li><li>Qdrant</li><li>Pinecone</li><li>RAGAS</li><li>LangSmith</li><li>PromptLayer</li></ul></dd>
+          </div>
+          <div>
+            <dt>Machine learning</dt>
+            <dd><ul class="tags"><li>scikit-learn</li><li>XGBoost</li><li>LightGBM</li><li>TabNet</li><li>LSTM</li><li>Hugging Face</li><li>SHAP</li><li>LIME</li><li>MLflow</li></ul></dd>
+          </div>
+          <div>
+            <dt>Cloud &amp; MLOps</dt>
+            <dd><ul class="tags"><li>AWS (EC2, S3, IAM)</li><li>Azure</li><li>Google Cloud</li><li>Docker</li><li>Kubernetes</li><li>Jenkins</li><li>GitHub Actions</li><li>ArgoCD</li><li>DVC</li></ul></dd>
+          </div>
+          <div>
+            <dt>Engineering</dt>
+            <dd><ul class="tags"><li>Python</li><li>TypeScript</li><li>React / Next.js</li><li>FastAPI</li><li>Streamlit</li><li>REST APIs</li><li>Bash</li><li>pytest</li><li>Git</li></ul></dd>
+          </div>
+          <div>
+            <dt>Observability</dt>
+            <dd><ul class="tags"><li>Prometheus</li><li>Grafana</li><li>OpenTelemetry</li></ul></dd>
+          </div>
+        </dl>
+      </section>
+
+      <!-- Education -->
+      <section id="education" class="section" aria-labelledby="education-h">
+        <h2 id="education-h" class="section-title">Education &amp; certifications</h2>
+
+        <article class="entry">
+          <p class="entry-date">2025 – 2026</p>
+          <div class="entry-body">
+            <h3 class="entry-title">MSc Artificial Intelligence</h3>
+            <p class="entry-org">National College of Ireland, Dublin</p>
+            <p class="entry-note">Thesis: accuracy, interpretability and adversarial robustness of phishing website detectors. Modules include Deep Learning, NLP, Intelligent Agents &amp; Process Automation, and Engineering &amp; Evaluating AI Systems.</p>
+          </div>
+        </article>
+
+        <article class="entry">
+          <p class="entry-date">2017 – 2022</p>
+          <div class="entry-body">
+            <h3 class="entry-title">MSc Software Systems</h3>
+            <p class="entry-org">Sri Krishna Arts and Science College, India</p>
+            <p class="entry-note">Presented the paper “Applications of Mixed Reality in Smart Environments” at the 10th National Conference on Machine Learning and Smart Technology (NCMST).</p>
+          </div>
+        </article>
+
+        <ul class="certs">
+          <li><span class="cert-name">Building Ambient Agents with LangGraph</span><span class="cert-meta">LangChain Academy · 2025</span></li>
+          <li><span class="cert-name">Microsoft Certified: Azure Virtual Desktop</span><span class="cert-meta">Microsoft · 2023</span></li>
+          <li><span class="cert-name">Microsoft Certified: Azure Fundamentals (AZ-900)</span><span class="cert-meta">Microsoft · 2022</span></li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section contact" aria-labelledby="contact-h">
+        <h2 id="contact-h" class="contact-title">Let's talk</h2>
+        <p>I'm open to AI Engineer, LLM Engineer and ML Platform roles in Ireland, on-site, hybrid or remote. I hold Stamp 1G, so I need no sponsorship, and can start within two weeks.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="mailto:saravanakumar3899@gmail.com">
+            <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>saravanakumar3899@gmail.com
+          </a>
+          <a class="btn btn-secondary" href="https://www.linkedin.com/in/saravanakumarn3899" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg>LinkedIn
+          </a>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>© <span id="year">2026</span> Saravanakumar Nagalingam · Hand-built with HTML &amp; CSS, hosted on GitHub Pages.</p>
+      </footer>
+    </main>
+  </div>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
