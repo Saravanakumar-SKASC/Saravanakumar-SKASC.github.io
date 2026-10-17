@@ -399,11 +399,12 @@ main { padding-bottom: 48px; }
   overflow: hidden;
 }
 .certs li {
-  display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px;
+  display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 4px 16px;
   padding: 14px 18px;
 }
 .certs li + li { border-top: 1px solid var(--border); }
-.cert-name { font-weight: 600; color: var(--text); font-size: 0.95rem; }
+.cert-name { display: block; font-weight: 600; color: var(--text); font-size: 0.95rem; }
+.cert-id { display: block; margin-top: 2px; font-size: 0.8rem; color: var(--subtle); }
 .cert-meta { font-size: 0.875rem; color: var(--subtle); }
 
 /* ---------- Contact ---------- */
